@@ -54,3 +54,8 @@ else:
   print("The Person has Parkinsons")
 
 
+import pickle
+filename = 'parkinsons_model.sav'
+pickle.dump(model, open(filename, 'wb'))
+# loading the saved model
+loaded_model = pickle.load(open('parkinsons_model.sav', 'rb'))
