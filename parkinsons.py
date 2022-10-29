@@ -54,4 +54,3 @@ else:
   print("The Person has Parkinsons")
 
 
-import pickle
